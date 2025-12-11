@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Les11.Testing/Les11.Testing.csproj" />
+  <Project Path="Les11/Les11.csproj" />
+</Solution>
