@@ -7,10 +7,9 @@ namespace Les11.Testing
         {
         }
 
-        [Test]
         public void Test1()
         {
-            Assert.Pass();
+            throw new NotImplementedException();
         }
 
         [Test]
@@ -30,5 +29,7 @@ namespace Les11.Testing
             Assert.That(resultaat, Is.EqualTo(22));
 
         }
+
+       
     }
 }

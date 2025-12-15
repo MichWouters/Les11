@@ -4,13 +4,14 @@ namespace Les11.Testing
 {
     internal class CalculatorTests
     {
-        [Test]
-        public void NummersOptellen_GeeftDeSomTerug_VanDeInputVelden()
+        [TestCase(5, 7, 12)]
+        [TestCase(2, 2, 4)]
+        [TestCase(-5, 7, 2)]
+        [TestCase(5, -7, -2)]
+        [TestCase(0, 0, 0)]
+        public void NummersOptellen_GeeftDeSomTerug_VanDeInputVelden(int getal1, int getal2, int verwachteResultaat)
         {
             // Arrange
-            int getal1 = 15;
-            int getal2 = 7;
-            int verwachteResultaat = 22;
             Calculator calc = new Calculator();
 
             // Act 

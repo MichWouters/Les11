@@ -2,6 +2,7 @@
 {
     public class Verkoop
     {
+
         public DateTime DatumVerkoop { get; set; }
 
         public double TotaalSaldo
